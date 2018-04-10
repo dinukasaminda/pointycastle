@@ -86,7 +86,7 @@ the algorithm shorthands like given in the list above.  It also makes it possibl
 to seamlessly chain different algorithms together.  For example:
 
 ```dart
-import "package:pointycastle/pointycastly.dart";
+import "package:pointycastle/pointycastle.dart";
 
 void main() {
   Digest sha256 = new Digest("SHA-256");
